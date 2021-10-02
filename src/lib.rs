@@ -37,7 +37,7 @@ mod unknown;
 
 pub use comptr::{AsComPtr, ComInterface, ComPtr};
 pub use iid::IID;
-pub use unknown::IUnknown;
+pub use unknown::{IID_IUnknown, IUnknown};
 
 /// Result type.
 pub type HResult = i32;
